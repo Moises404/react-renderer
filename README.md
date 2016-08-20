@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
   <img src="https://raw.githubusercontent.com/Art404/boiler404/master/boiler404.png" />
 </p>
@@ -93,3 +94,7 @@ $ git push heroku master
 └── webpack.config.babel.js   # Webpack configuration
 ```
 
+=======
+# react-renderer
+React renderer styling component 
+>>>>>>> 29baee64571a210247e8959d445fe32abcdbc09b
