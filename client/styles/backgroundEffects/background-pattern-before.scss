@@ -1,0 +1,332 @@
+.darth:before{
+	font-size:;
+	background-image:linear-gradient(45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(-45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(-45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(45deg,#000 8%,transparent 8%,transparent 92%,#000 92%),linear-gradient(-45deg,transparent 17%,#000 17%,#000 21%,transparent 21%,transparent 79%,#000 79%,#000 83%,transparent 83%),linear-gradient(45deg,transparent 29%,#000 29%,#000 33%,transparent 33%,transparent 67%,#000 67%,#000 71%,transparent 71%),linear-gradient(-135deg,#202020 10%,#090909 33%,transparent 33%,transparent 67%,#161616 67%,#202020 90%),linear-gradient(135deg,transparent 21%,#161616 21%,#2d2d2d 32.6%,#161616 64.5%,#202020 70.3%,#090909 79%,transparent 79%),linear-gradient(-135deg,transparent 21%,#161616 21%,#202020 40%,#202020 60%,#090909 79%,transparent 79%);
+	background-size:4em 4em;
+	background-position:0 1em,1em 0,0 1em,1em 0,0 0,0 0,0 0,0 0,0 0
+}
+
+.bg27:before{ 
+	font-size:1vw; background:
+	repeating-linear-gradient( -45deg, transparent, transparent calc(6% - 1px), #faef64 6%, #faef64 6.5%, transparent calc(6.5% + 1px), transparent calc(18.5% - 1px), #faef64 18.5%, #faef64 19%, transparent calc(19% + 1px), transparent calc(31% - 1px), #646490 31%, #646490 31.5%, transparent calc(31.5% + 1px), transparent calc(43.5% - 1px), #646490 43.5%, #646490 44%, transparent calc(44% + 1px), transparent 50%),
+	repeating-linear-gradient( 45deg, transparent, transparent calc(6% - 1px), #646490 6%, #646490 6.5%, transparent calc(6.5% + 1px), transparent calc(18.5% - 1px), #646490 18.5%, #646490 19%, transparent calc(19% + 1px), transparent calc(31% - 1px), #faef64 31%, #faef64 31.5%, transparent calc(31.5% + 1px), transparent calc(43.5% - 1px), #faef64 43.5%, #faef64 44%, transparent calc(44% + 1px), transparent 50%),
+	repeating-linear-gradient( -45deg, transparent, transparent calc(12.5% - 1px), #5cc4a4 12.5%, #5cc4a4 25%, transparent calc(25% + 1px), transparent calc(37.5% - 1px), #efb458 37.5%, #efb458 50%, transparent calc(50% + 1px)),
+	repeating-linear-gradient( 45deg, transparent, transparent calc(12.5% - 1px), #8ad4dd 12.5%, #8ad4dd 25%, transparent calc(25% + 1px), transparent calc(37.5% - 1px), #e74e7e 37.5%, #e74e7e 50%, transparent calc(50% + 1px));
+	background-size: 24em 24em;
+	background-blend-mode: multiply
+}
+
+
+.bg28:before{ 
+	font-size:1vw; background:
+	radial-gradient(circle at 3em 3em, white 1em, transparent calc(1em + 1px)),
+	radial-gradient(circle at 3.6em 3.6em, purple 1.98em, transparent calc(1.98em + 1px)),
+	radial-gradient(circle at 3em 3em, pink 2.8em, transparent calc(2.8em + 1px)),
+	radial-gradient(circle at 9em 3em, purple 1em, transparent calc(1em + 1px)),
+	radial-gradient(circle at 8.5em 3.7em, yellow 1.98em, transparent calc(1.98em + 1px)),
+	radial-gradient(circle at 9em 3em, brown 2.8em, transparent calc(2.8em + 1px)),
+	radial-gradient(circle at 3em 9em, purple 1em, transparent calc(1em + 1px)),
+	radial-gradient(circle at 3.7em 8.5em, yellow 1.98em, transparent calc(1.98em + 1px)),
+	radial-gradient(circle at 3em 9em, brown 2.8em, transparent calc(2.8em + 1px)),
+	radial-gradient(circle at 9em 9em, white 1em, transparent calc(1em + 1px)),
+	radial-gradient(circle at 8.4em 8.4em, purple 1.98em, transparent calc(1.98em + 1px)),
+	radial-gradient(circle at 9em 9em, pink 2.8em, transparent calc(2.8em + 1px)),
+	linear-gradient(135deg, purple 4.26em, transparent calc(4.26em + 1px)),
+	linear-gradient(-135deg, yellow 4.26em, transparent calc(4.26em + 1px)),
+	linear-gradient(45deg, yellow 4.26em, transparent calc(4.26em + 1px)),
+	linear-gradient(-45deg, purple 4.26em, transparent calc(4.26em + 1px)),
+	linear-gradient(-45deg, purple 4.26em, transparent calc(4.26em + 1px)),
+	linear-gradient(45deg, yellow 4.26em, transparent calc(4.26em + 1px)),
+	linear-gradient(-135deg, yellow 4.26em, transparent calc(4.26em + 1px)),
+	linear-gradient(135deg, purple 4.26em, transparent calc(4.26em + 1px));
+	background-position:
+	6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em, 6em 6em,
+	0 0, 12em 0, 0 12em, 12em 12em;
+	background-size:12em 12em
+}
+
+.bg29{
+	background-color: yellow
+}
+.bg29:before{ 
+	font-size:1vw; background:
+	radial-gradient(circle at 0 100%, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, green 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 0 100%, red 2.48em, transparent calc(2.48em + 2px)),
+	radial-gradient(circle at 100% 0, red 2.48em, transparent calc(2.48em + 2px));
+	background-position:0 -10em,-5em 0,7.5em -10em,0 0,-10em 2.5em,2.5em -7.5em,-5em 2.5em,7.5em -7.5em,-10em 5em,2.5em -5em,-2.5em 5em,10em -5em,-7.5em 7.5em,5em -2.5em,-2.5em 7.5em,10em -2.5em,0 0,-7.5em 10em,5em 0,0 10em;
+	background-size: 12.5em 12.5em;
+	filter: drop-shadow(4px 4px 1px)
+}
+
+.bg30:before{ 
+	font-size:1vw; color:; background:
+	linear-gradient( 30deg, currentColor 12%,transparent calc(12% + 1px), transparent calc(88% - 1px), currentColor 88%, currentColor)0 0/5em 8.75em,
+	linear-gradient( 151deg, currentColor 12%, transparent calc(12% + 1px), transparent calc(88% - 1px), currentColor 88%, currentColor)0 0/5em 8.75em,
+	linear-gradient( 30deg, currentColor 12%, transparent calc(12% + 1px), transparent calc(88% - 1px), currentColor 88%, currentColor)2.5em 4.37em/5em 8.75em,
+	linear-gradient( 151deg, currentColor 12%, transparent calc(12% + 1px), transparent calc(88% - 1px), currentColor 88%, currentColor)2.5em 4.37em/5em 8.75em,
+	linear-gradient( 60.5deg, gray 25%, transparent calc(25% + 1px), transparent calc(75% - 1px), gray 75%, gray)0 0/5em 8.75em,
+	linear-gradient( 60.5deg, gray 25%, transparent calc(25% + 1px), transparent calc(75% - 1px), gray 75%, gray)2.5em 4.37em/5em 8.75em;
+	background-color:
+}
+
+.bg1:before{ 
+	font-size:2vw; color:green; background:
+	linear-gradient( 116.5deg,transparent 75%,currentColor calc(75% + 1px))0 0/1em 2em,
+	linear-gradient( 243.5deg,transparent 75%,currentColor calc(75% + 1px))0 0/1em 2em,
+	linear-gradient( 116.5deg,transparent 75%,currentColor calc(75% + 1px)).5em -1em/1em 2em,
+	linear-gradient( 243.5deg,transparent 75%,currentColor calc(75% + 1px)).5em -1em/1em 2em;
+	-webkit-filter: drop-shadow(0 2px 1px#000);
+	filter: drop-shadow(0 2px 1px#000)
+}
+
+.bg2:before{ 
+	font-size:2vw; color:red; background:
+	linear-gradient( 296.5deg,transparent 75%,currentColor calc(75% + 1px))0 0/1em 2em,
+	linear-gradient( 423.5deg,transparent 75%,currentColor calc(75% + 1px))0 0/1em 2em,
+	linear-gradient( 296.5deg,transparent 75%,currentColor calc(75% + 1px)).5em -1em/1em 2em,
+	linear-gradient( 423.5deg,transparent 75%,currentColor calc(75% + 1px)).5em -1em/1em 2em;
+	-webkit-filter: drop-shadow(0 2px 1px #000);
+	filter: drop-shadow(0 2px 1px #000)
+}
+
+.bg3:before{ 
+	background: url('data:image/svg+xml,\ <svg\ xmlns= "http://www.w3.org/2000/svg"\ width="2"\ height="2"\
+	fill="black"\
+	fill-opacity="1">\
+	<rect\ x="1"\ width="1"\ height="1"\/>\ <rect\ y="1"\ width="1"\ height="1"\/>\ </svg>\ ');
+	background-size:4vw;
+	-webkit-filter:url(#lightA2);
+	filter:url(#lightA2)
+}
+
+.bg4:before{
+	font-size:2vw; color:black; background:
+	linear-gradient( 45deg,currentColor 24.9%, transparent calc(24.9% + 1px), transparent calc(75.1% - 1px), currentColor 75.1%)0 0/2em 2em,
+	linear-gradient( -45deg,currentColor 24.9%, transparent calc(24.9% + .1px), transparent calc(75.1% - 1px), currentColor 75.1%)1em 1em/2em 2em;
+	-webkit-filter:url(#rainbow);
+	filter:url(#rainbow)
+}
+
+.bg5:before{ 
+	font-size:3vw; color:green; background:
+	linear-gradient( 45deg, currentColor 24.8%, transparent calc(24.8% + 1px), transparent calc(75.2% - 1px), currentColor 75.2%) 0 0/1em 1em,
+	linear-gradient( 135deg, currentColor 24.8%, transparent calc(24.8% + 1px), transparent calc(75.2% - 1px), currentColor 75.2%) 0 0/1em 1em;
+	-webkit-filter:url(#lightF1);
+	filter:url(#lightF1)
+}
+
+.bg6:before{ 
+	font-size:3vw; color:green; background:
+	linear-gradient( currentColor 1px, transparent 1px)0 0/1em 1em,
+	linear-gradient( 90deg, currentColor 1px, transparent 1px)0 0/1em 1em
+}
+
+.bg7:before{ 
+	font-size:2vw; color:silver; background:
+	linear-gradient( currentColor 25%, transparent 0)0 0/1em 1em,
+	linear-gradient( 90deg, currentColor 25%, transparent 0)0 0/1em 1em
+}
+
+.bg8:before{ 
+	font-size:3vw; color:gray; background:
+	linear-gradient( currentColor 50%, transparent 0)0 0/1em 1em,
+	linear-gradient( 90deg, currentColor 50%, transparent 0)0 0/1em 1em,
+	silver
+}
+
+.bg9:before{ 
+	font-size:3vw; color:gray; background:
+	repeating-linear-gradient( currentColor, currentColor 1px, transparent 1px, transparent 74.99%) 0 .25em/1em 1em,
+	repeating-linear-gradient( 90deg, currentColor, currentColor 1px, transparent 1px, transparent 74.99%) .25em 0/1em 1em
+}
+
+.bg10:before{ 
+	font-size:3vw; color:gray; background:
+	linear-gradient( 45deg, transparent calc(50.1% - 1px), currentColor 50.1%, transparent calc(50.1% + 1px)) 0 0/1em 1em,
+	linear-gradient( -45deg, transparent calc(49.9% - 1px), currentColor 49.9%, transparent calc(49.9% + 1px)) 0 0/1em 1em
+}
+
+.bg11:before{ 
+	font-size:3vw; color:gray; background:
+	linear-gradient( currentColor 1px, transparent 1px)0 0/1em 1em, linear-gradient( 90deg,currentColor 1px, transparent 1px)0 0/1em 1em,
+	linear-gradient( 45deg, transparent calc(50.1% - 1px), currentColor 50.1%, transparent calc(50.1% + 1px)) 0 0/1em 1em, linear-gradient( -45deg, transparent calc(49.9% - 1px), currentColor 49.9%, transparent calc(49.9% + 1px)) 0 0/1em 1em
+}
+
+.bg12:before{ 
+	font-size:2vw; color:red; background:
+	linear-gradient( 335deg, currentColor 33.2%, transparent calc(33.2% + 1px)) 0 0/4em 3.73em,
+	linear-gradient( 155deg, currentColor 33.2%, transparent calc(33.2% + 1px)) 0 0/4em 3.73em;
+	-webkit-filter:url(#rainbow);
+	filter:url(#rainbow)
+}
+
+.bg13:before{ 
+	font-size:3vw; color:red; background:
+	linear-gradient( 45deg, currentColor 24.8%, transparent calc(24.8% + 1px), transparent calc(75.2% - 1px), currentColor 75.2%) 0 0/1em 1em;
+	-webkit-filter: drop-shadow(0 2px 1px #000);
+	filter: drop-shadow(0 2px 1px #000)
+}
+
+.bg14:before{ 
+	font-size:3vw; color:; background:
+	linear-gradient(32deg, currentColor 24.9%, transparent calc(24.9% + 1px) )0 0/1.6em 1em,
+	linear-gradient(32deg, currentColor 24.9%, transparent calc(24.9% + 1px)) .8em -.5em/1.6em 1em,
+	linear-gradient(148deg, currentColor 24.9%, transparent calc(24.9% + 1px)) 0 0/1.6em 1em,
+	linear-gradient(148deg, currentColor 24.9%, transparent calc(24.9% + 1px)) -.8em .5em/1.6em 1em
+}
+
+.bg15:before{ 
+	font-size:4vw; color:green; background:
+	linear-gradient( 45deg, transparent calc(37% - 1px), currentColor 37%, currentColor 63%, transparent calc(63% + 1px)) 0 0/1em 1em;
+	-webkit-filter: drop-shadow(-1px 2px 1px #000);
+	filter: drop-shadow(-1px 2px 1px #000)
+}
+
+.bg16:before{ 
+	font-size:1vw; color:silver; background:
+	linear-gradient( 60deg, currentColor 24.8%, transparent calc(24.8% + 1px), transparent calc(75.2% - 1px), currentColor 75.2%) 0 0/4.37em 7.5em,linear-gradient( 120deg, currentColor 24.8%, transparent calc(24.8% + 1px), transparent calc(75.2% - 1px), currentColor 75.2%) 0 0/4.37em 7.5em
+}
+
+.bg17:before{ 
+	font-size:2vw; color:red; background:
+	linear-gradient( 135deg, currentColor 25%, transparent calc(25% + 1px)) -1em 0/2em 2em,
+	linear-gradient( 225deg, currentColor 25%, transparent calc(25% + 1px)) -1em 0/2em 2em,
+	linear-gradient( 315deg, currentColor 25%, transparent calc(25% + 1px)) 0 0/2em 2em,
+	linear-gradient( 45deg, currentColor 25%, transparent calc(25% + 1px)) 0 0/2em 2em
+}
+
+.bg18:before{ 
+	font-size:2vw; color:gray; background:
+	linear-gradient( -45deg, transparent calc(74.9% - 1px), currentColor 74.9%) 0 0/2em 2em,
+	linear-gradient( -45deg, currentColor 25%, transparent calc(25% + 1px)) 1em 1em/2em 2em,
+	linear-gradient( 45deg, currentColor 17%, transparent calc(17% + 1px), transparent calc(25% - 1px), currentColor 25%, currentColor 36%, transparent calc(36% + 1px), transparent calc(64% - 1px), currentColor 64%, currentColor 75%, transparent calc(75% + 1px), transparent calc(83% - 1px), currentColor 83%) 1em 1em/2em 2em;
+	-webkit-filter: url(#lightA1) drop-shadow(0 2px 1px #000);
+	filter: url(#lightA1) drop-shadow(0 2px 1px #000)
+}
+
+.bg19{ 
+	background-color: silver
+}
+.bg19:before{ 
+	font-size:4vw; color:; background:
+	radial-gradient(currentColor 40%,transparent calc(40% + 2px))0 0/1em 1em;
+	-webkit-filter: url(#perl) drop-shadow(.06em .06em 2px rgba(0,0,0,.5));
+	filter: url(#perl) drop-shadow(.06em .06em 2px rgba(0,0,0,.5))
+}
+
+.bg20:before{ 
+	font-size:2vw; color:; background:
+	radial-gradient( currentColor 30%, transparent calc(30% + 2px)) -.5em -.5em/2em 2em,
+	radial-gradient( currentColor 30%, transparent calc(30% + 2px)) .5em .5em/2em 2em
+}
+
+.bg21:before{ 
+	font-size:2vw; color:silver; background:
+	radial-gradient( closest-side, transparent calc(99% - 1.5px), currentColor 99%)0 0/2em 2em,
+	radial-gradient( closest-side, transparent calc(99% - 1.5px), currentColor 99%)1em 1em/2em 2em
+}
+
+.bg22:before{ 
+	font-size:1vw; color:; background:
+	radial-gradient( circle closest-side, transparent 70%, currentColor 100%)0 0/2em 2em,
+	radial-gradient( circle closest-side, transparent 70%, currentColor 100%)1em 1em/2em 2em
+}
+
+.bg23:before{ 
+	font-size:1.5vw; color:; background:
+	repeating-radial-gradient( transparent calc(34% - 1.5px), currentColor 34%, currentColor 40%, transparent calc(40% + 1.5px), transparent 80%)0 0/3em 3em;
+	-webkit-filter:url(#lightA1);
+	filter:url(#lightA1)
+}
+
+.bg24:before{ 
+	font-size:2vw; color:midnightblue; background:
+	radial-gradient( currentColor 34%, transparent calc(34% + 1.5px))0 0 /1em 1em,
+	repeating-radial-gradient( transparent calc(34% - 1.5px), currentColor 34%, currentColor 40%, transparent calc(40% + 1.5px), transparent 80%)0 0/3em 3em;
+	-webkit-filter:url(#lightA1);
+	filter:url(#lightA1)
+}
+
+.bg25:before{ 
+	font-size:1vw; color:green; background:
+	radial-gradient( closest-side, transparent 0%, transparent calc(76% - 1.5px), #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, currentColor calc(94% + 1.5px), currentColor calc(104% - 1.5px), #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, currentColor calc(121% + 1.5px), currentColor calc(131% - 1.5px), #E0EAD7 131%, #E0EAD7 140%) 0 0/6em 6em, radial-gradient( closest-side, transparent 0%, transparent calc(76% - 1.5px), #B6CC66 76%, #B6CC66 85%, #EDFFDB 86%, #EDFFDB 94%, currentColor calc(94% + 1.5px), currentColor calc(104% - 1.5px), #D9E6A7 104%, #D9E6A7 112%, #798B3C 113%, #798B3C 121%, currentColor calc(121% + 1.5px), currentColor 130%, #E0EAD7 131%, #E0EAD7 140%) 3em 3em/6em 6em
+}
+
+.bg26:before{ 
+	font-size:1vw; color:#3888A1; background:
+	radial-gradient( transparent calc(80% - 2px), currentColor 80%, currentColor 85%, transparent calc(85% + 2px), transparent calc(94% - 2px), currentColor 94%) -2em -2em/4em 4em,
+	linear-gradient( 45deg, transparent calc(49.9% - 1px), currentColor 49.9%, transparent calc(49.9% + 1px)) 0 0/4em 4em,
+	linear-gradient( -45deg, transparent calc(49.9% - 1px), currentColor 49.9%, transparent calc(49.9% + 1px)) 0 0/4em 4em,
+	#1D4D5C
+}
+
+.bg31:before{ 
+	font-size:1vw; color:#abced4; background:
+	linear-gradient( 90deg, transparent 5em, currentColor 5em, currentColor calc(5em + 2px), transparent 0)0/100%,
+	linear-gradient( currentColor 1px, transparent 0)0 -1px/100% 1.3em
+}
+
+.bg32:before{ 
+	font-size:1.1vw; color:#fff; background:
+	linear-gradient( currentColor 2px, transparent 0)-2px -2px/100% 5em,
+	linear-gradient( 90deg, currentColor 2px, transparent 0)-2px -2px/5em 100%,
+	linear-gradient( currentColor 1px, transparent 0)-1px -1px/100% 1em,
+	linear-gradient( 90deg, currentColor 1px, transparent 0)-1px -1px/1em 100%,
+	#269
+}
+
+.bg33:before{ 
+	font-size:1vw; background:
+	linear-gradient( 90deg, #fff 5%, rgba(255,255,255,.25)5%, rgba(255,255,255,.25)50%, #fff 50%, #fff 55%, transparent 0)0/3em 100%,
+	linear-gradient( #fff 5%, rgba(255,255,255,.25)5%, rgba(255,255,255,.25)50%, #fff 50%, #fff 55%, transparent 0)0 0/100% 3em,
+	#363
+}
+
+.bg34:before{ 
+	font-size:1vw; background:
+	linear-gradient( 90deg, rgba(255,255,255,.07)50%, transparent 50%) 0/.812em,
+	linear-gradient( 90deg, rgba(255,255,255,.13)50%, transparent 50%) 0/1.75em,
+	linear-gradient( 90deg, transparent 50%, rgba(255,255,255,.17)50%) 0/2.312em,
+	linear-gradient( 90deg, transparent 50%, rgba(255,255,255,.19)50%) 0/3.312em,
+	#066
+}
+
+.bg35:before { 
+	font-size:1vw; background:
+	radial-gradient( circle closest-side, transparent calc(100% - 1.5px) ,rgba(0,0,0,.3)100%) 1em 0/2em 1em,
+	radial-gradient( circle closest-side, transparent calc(100% - 1px), rgba(0,0,0,.3)100%) 1em 1em/2em 2em,
+	#930
+}
+
+.bg36:before { 
+	font-size:4vw;background:
+	linear-gradient(135deg, #C7F464 25%, transparent calc(25% + 1px)) -1em 1em,
+	linear-gradient(225deg, #01dbba 25%, transparent calc(25% + 1px)) -1em 1em,
+	linear-gradient(315deg, #C7F464 25%, transparent calc(25% + 1px)) 0 1em,
+	linear-gradient(45deg, #01dbba 25%, transparent calc(25% + 1px)) 0 1em,
+	linear-gradient(135deg, #4d1655 25%, transparent calc(25% + 1px)) -1em 0,
+	linear-gradient(225deg, #A72A8E 25%, transparent calc(25% + 1px)) -1em 0,
+	linear-gradient(315deg, #4d1655 25%, transparent calc(25% + 1px)),
+	linear-gradient(45deg, #A72A8E 25%, transparent calc(25% + 1px));
+	background-size:2em 2em
+}
+
+.bgx:before { 
+	font-size:; color:; background:
+}

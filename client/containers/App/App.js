@@ -4,7 +4,7 @@ import {bindActionCreators} from 'redux'
 import {connect} from 'react-redux'
 import cn from 'classnames'
 import {isEqual, merge} from 'lodash'
-import Navigation from '../../components/Navigation/Navigation'
+// import Navigation from '../../components/Navigation/Navigation'
 
 export class App extends Component {
   static propTypes = {
@@ -31,14 +31,14 @@ export class App extends Component {
   }
 
   render() {
-    const {app, children, layout, actions, client} = this.props
-    const navProps = {actions, client, layout}
+    const {app, children, client} = this.props
+    // const {app, children, layout, actions, client} = this.props
+    // const navProps = {actions, client, layout}
     const childProps = merge(app, client)
     const appClasses = cn('App', `--${client.agent}`)
 
     return (
       <div className={appClasses}>
-        <Navigation {... navProps} />
         <div className="App-content">
           {cloneElement(children, childProps)}
         </div>

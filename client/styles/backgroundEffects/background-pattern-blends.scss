@@ -1,0 +1,1545 @@
+.pattern-blend-1 {
+	background:
+		radial-gradient(
+			yellow,
+			yellow 50%,
+			transparent 50%,
+			transparent 100%
+		),
+		radial-gradient(
+			cyan,
+			cyan 50%,
+			transparent 50%,
+			transparent 100%
+		),
+		radial-gradient(
+			magenta,
+			magenta 40%,
+			transparent 40%,
+			transparent 100%
+		), floralwhite;
+
+	background-size:
+		8em 8em,
+		6em 6em,
+		2em 2em;
+
+	background-blend-mode: multiply;
+	background-position:
+		0 0,
+		-33% -33%,
+		-200% -200%;
+}
+
+.pattern-blend-2 {
+	background:
+		repeating-radial-gradient(
+			circle at top left,
+			red,
+			red 4em,
+			transparent 4em,
+			transparent 15em
+		),
+		repeating-radial-gradient(
+			circle at top right,
+			lime,
+			lime 4em,
+			transparent 4em,
+			transparent 15em
+		),
+		repeating-radial-gradient(
+			circle at bottom right,
+			yellow,
+			yellow 4em,
+			transparent 4em,
+			transparent 15em
+		),
+		repeating-radial-gradient(
+			circle at bottom left,
+			blue,
+			blue 4em,
+			transparent 4em,
+			transparent 15em
+		), white;
+
+	background-blend-mode: difference;
+}
+
+.pattern-blend-3 {
+	background:
+		repeating-linear-gradient(
+			50deg,
+			#F7A37B,
+			#F7A37B 1em,
+			#FFDEA8 1em,
+			#FFDEA8 2em,
+			#D0E4B0 2em,
+			#D0E4B0 3em,
+			#7CC5D0 3em,
+			#7CC5D0 4em,
+			#00A2E1 4em,
+			#00A2E1 5em,
+			#0085C8 5em,
+			#0085C8 6em
+		),
+		repeating-linear-gradient(
+			-50deg,
+			#F7A37B,
+			#F7A37B 1em,
+			#FFDEA8 1em,
+			#FFDEA8 2em,
+			#D0E4B0 2em,
+			#D0E4B0 3em,
+			#7CC5D0 3em,
+			#7CC5D0 4em,
+			#00A2E1 4em,
+			#00A2E1 5em,
+			#0085C8 5em,
+			#0085C8 6em
+		);
+		
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-4 {
+	background:
+		repeating-radial-gradient(
+			circle,
+			transparent,
+			transparent 3.5em,
+			tomato 3.5em,
+			tomato 4.5em
+		),
+		repeating-radial-gradient(
+			circle,
+			transparent,
+			transparent 3.5em,
+			dodgerblue 3.5em,
+			dodgerblue 4.5em
+		),
+		repeating-radial-gradient(
+			circle,
+			transparent,
+			transparent 2.5em,
+			gold 2.5em,
+			gold 2.75em
+		), floralwhite;
+
+	background-blend-mode: multiply;
+	background-size: 10em 10em;
+	background-position:
+		0 0,
+		5em 5em,
+		10em 5em;
+}
+
+.pattern-blend-5 {
+	background:
+		radial-gradient(
+			transparent 0,
+			transparent 2em,
+			lightblue 2em,
+			lightblue 2.5em,
+			transparent 2.5em,
+			transparent 100%
+		),
+		radial-gradient(
+			transparent 0,
+			transparent 2em,
+			aquamarine 2em,
+			aquamarine 2.5em,
+			transparent 2.5em,
+			transparent 100%
+		),
+		radial-gradient(
+			transparent 0,
+			transparent 2em,
+			khaki 2em,
+			khaki 2.5em,
+			transparent 2.5em,
+			transparent 100%
+		),
+		radial-gradient(
+			transparent 0,
+			transparent 2em,
+			pink 2em,
+			pink 2.5em,
+			transparent 2.5em,
+			transparent 100%
+		), linen;
+	background-blend-mode: multiply;
+	background-size: 5em 5em;
+	background-position: 0 2.5em, 2.5em 0, 2.5em 2.5em, 0 0;
+}
+
+.pattern-blend-6 {
+	background:
+		radial-gradient(
+			circle at bottom left,
+			transparent 0,
+			transparent 2em,
+			beige 2em,
+			beige 4em,
+			transparent 4em,
+			transparent 6em,
+			khaki 6em,
+			khaki 8em,
+			transparent 8em,
+			transparent 10em
+		),
+		radial-gradient(
+			circle at top right,
+			transparent 0,
+			transparent 2em,
+			beige 2em,
+			beige 4em,
+			transparent 4em,
+			transparent 6em,
+			khaki 6em,
+			khaki 8em,
+			transparent 8em,
+			transparent 10em
+		),
+		radial-gradient(
+			circle at top left,
+			transparent 0,
+			transparent 2em,
+			navajowhite 2em,
+			navajowhite 4em,
+			transparent 4em,
+			transparent 6em,
+			peachpuff 6em,
+			peachpuff 8em,
+			transparent 8em,
+			transparent 10em
+		),
+		radial-gradient(
+			circle at bottom right,
+			transparent 0,
+			transparent 2em,
+			palegoldenrod 2em,
+			palegoldenrod 4em,
+			transparent 4em,
+			transparent 6em,
+			peachpuff 6em,
+			peachpuff 8em,
+			transparent 8em,
+			transparent 10em
+		), blanchedalmond;
+		
+	background-blend-mode: multiply;
+	background-size: 10em 10em;
+	background-position: 0 0, 0 0, 5em 5em, 5em 5em;
+}
+
+.pattern-blend-7 {
+	background:
+		linear-gradient(
+			crimson -7.5%,
+			crimson 2.5%,
+			orangered -5%,
+			orangered 5%,
+			orange -2.5%,
+			orange 7.5%,
+			gold 0%,
+			gold 10%,
+			#fff 2.5%,
+			#fff 12.5%,
+			lightblue 5%,
+			lightblue 15%,
+			skyblue 7.5%,
+			skyblue 17.5%,
+			steelblue 10%,
+			steelblue 20%,
+			#38678f 12.5%,
+			#38678f 22.5%,
+			skyblue 15%,
+			skyblue 25%,
+			#38678f 17.5%,
+			#38678f 27.5%,
+			steelblue 20%,
+			steelblue 30%,
+			skyblue 22.5%,
+			skyblue 32.5%,
+			lightblue 25%,
+			lightblue 35%,
+			#fff 27.5%,
+			white 37.5%,
+			gold 30%,
+			gold 40%,
+			orange 32.5%,
+			orange 42.5%,
+			orangered 35%,
+			orangered 45%,
+			crimson 37.5%,
+			crimson 47.5%,
+			gold 40%,
+			gold 50%,
+			crimson 42.5%,
+			crimson 52.5%,
+			orangered 45%,
+			orangered 55%,
+			orange 47.5%,
+			orange 57.5%,
+			gold 50%,
+			gold 60%,
+			#fff 52.5%,
+			#fff 62.5%,
+			lightblue 55%,
+			lightblue 65%,
+			skyblue 57.5%,
+			skyblue 67.5%,
+			steelblue 60%,
+			steelblue 70%,
+			#38678f 62.5%,
+			#38678f 72.5%,
+			skyblue 65%,
+			skyblue 75%,
+			#38678f 67.5%,
+			#38678f 77.5%,
+			steelblue 70%,
+			steelblue 80%,
+			skyblue 72.5%,
+			skyblue 82.5%,
+			lightblue 75%,
+			lightblue 85%,
+			#fff 77.5%,
+			#fff 87.5%,
+			gold 80%,
+			gold 90%,
+			orange 82.5%,
+			orange 92.5%,
+			orangered 85%,
+			orangered 95%,
+			crimson 87.5%,
+			crimson 97.5%,
+			gold 90%,
+			gold 100%),
+		linear-gradient(
+			90deg,
+			crimson -7.5%,
+			crimson 2.5%,
+			orangered -5%,
+			orangered 5%,
+			orange -2.5%,
+			orange 7.5%,
+			gold 0%,
+			gold 10%,
+			#fff 2.5%,
+			#fff 12.5%,
+			lightblue 5%,
+			lightblue 15%,
+			skyblue 7.5%,
+			skyblue 17.5%,
+			steelblue 10%,
+			steelblue 20%,
+			#38678f 12.5%,
+			#38678f 22.5%,
+			skyblue 15%,
+			skyblue 25%,
+			#38678f 17.5%,
+			#38678f 27.5%,
+			steelblue 20%,
+			steelblue 30%,
+			skyblue 22.5%,
+			skyblue 32.5%,
+			lightblue 25%,
+			lightblue 35%,
+			#fff 27.5%,
+			#fff 37.5%,
+			gold 30%,
+			gold 40%,
+			orange 32.5%,
+			orange 42.5%,
+			orangered 35%,
+			orangered 45%,
+			crimson 37.5%,
+			crimson 47.5%,
+			gold 40%,
+			gold 50%,
+			crimson 42.5%,
+			crimson 52.5%,
+			orangered 45%,
+			orangered 55%,
+			orange 47.5%,
+			orange 57.5%,
+			gold 50%,
+			gold 60%,
+			#fff 52.5%,
+			#fff 62.5%,
+			lightblue 55%,
+			lightblue 65%,
+			skyblue 57.5%,
+			skyblue 67.5%,
+			steelblue 60%,
+			steelblue 70%,
+			#38678f 62.5%,
+			#38678f 72.5%,
+			skyblue 65%,
+			skyblue 75%,
+			#38678f 67.5%,
+			#38678f 77.5%,
+			steelblue 70%,
+			steelblue 80%,
+			skyblue 72.5%,
+			skyblue 82.5%,
+			lightblue 75%,
+			lightblue 85%,
+			#fff 77.5%,
+			#fff 87.5%,
+			gold 80%,
+			gold 90%,
+			orange 82.5%,
+			orange 92.5%,
+			orangered 85%,
+			orangered 95%,
+			crimson 87.5%,
+			crimson 97.5%,
+			gold 90%,
+			gold 100%
+		), orangered;
+
+	background-size: 10em 10em;
+	background-blend-mode: multiply, normal;
+}
+
+.pattern-blend-8 {
+	background:
+		linear-gradient(
+			cyan,
+			transparent
+		),
+		linear-gradient(
+			-45deg,
+			magenta,
+			transparent
+		),
+		linear-gradient(
+			45deg,
+			yellow,
+			transparent
+		);
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-9 {
+	background:
+		repeating-radial-gradient(
+			circle at top left,
+			cyan,
+			yellow 2em,
+			magenta 4em,
+			cyan 6em
+		),
+		repeating-radial-gradient(
+			circle at bottom left,
+			cyan,
+			yellow 2em,
+			magenta 4em,
+			cyan 6em
+		),
+		repeating-radial-gradient(
+			circle at top right,
+			cyan,
+			yellow 2em,
+			magenta 4em,
+			cyan 6em
+		),
+		repeating-radial-gradient(
+			circle at bottom right,
+			cyan,
+			yellow 2em,
+			magenta 4em,
+			cyan 6em
+		);
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-10 {
+	background:
+		repeating-linear-gradient(
+			transparent,
+			transparent 10px,
+			lightcoral 10px,
+			lightcoral 15px,
+			transparent 15px,
+			transparent 20px,
+			lightcoral 15px,
+			lightcoral 40px,
+			transparent 40px,
+			transparent 45px,
+			lightcoral 45px,
+			lightcoral 50px,
+			transparent 50px,
+			transparent 80px
+		),
+		repeating-linear-gradient(
+			90deg,
+			transparent,
+			transparent 10px,
+			lightcoral 10px,
+			lightcoral 15px,
+			transparent 15px,
+			transparent 20px,
+			lightcoral 15px,
+			lightcoral 40px,
+			transparent 40px,
+			transparent 45px,
+			lightcoral 45px,
+			lightcoral 50px,
+			transparent 50px,
+			transparent 80px
+		), floralwhite;
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-11 {
+	background:
+		radial-gradient(
+			rgba(255,255,255,.2) 20%,
+			rgba(128,0,128,.4) 31%,
+			rgba(128,0,128,.4) 35%,
+			rgba(255,255,255,.2) 36%,
+			rgba(255,255,255,.2) 40%,
+			rgba(128,0,128,.4) 51%,
+			rgba(128,0,128,.4) 55%,
+			rgba(255,255,255,.2) 56%),
+		radial-gradient(
+			rgba(255,255,255,.2) 20%,
+			rgba(0,0,139,.4) 31%,
+			rgba(0,0,139,.4) 35%,
+			rgba(255,255,255,.2) 36%,
+			rgba(255,255,255,.2) 40%,
+			rgba(0,0,139,.4) 51%,
+			rgba(0,0,139,.4) 55%,
+			rgba(255,255,255,.2) 56%),
+		radial-gradient(
+			rgba(255,255,255,.2) 20%,
+			rgba(220,20,60,.4) 31%,
+			rgba(220,20,60,.4) 35%,
+			rgba(255,255,255,.2) 36%,
+			rgba(255,255,255,.2) 40%,
+			rgba(220,20,60,.4) 51%,
+			rgba(220,20,60,.4) 55%,
+			rgba(255,255,255,.2) 56%),
+		radial-gradient(
+			rgba(255,255,255,.2) 20%,
+			rgba(255,69,0,.4) 31%,
+			rgba(255,69,0,.4) 35%,
+			rgba(255,255,255,.2) 36%,
+			rgba(255,255,255,.2) 40%,
+			rgba(255,69,0,.4) 51%,
+			rgba(255,69,0,.4) 55%,
+			rgba(255,255,255,.2) 56%),
+		radial-gradient(
+			rgba(255,255,255,.2) 20%,
+			rgba(255,215,0,.4) 31%,
+			rgba(255,215,0,.4) 35%,
+			rgba(255,255,255,.2) 36%,
+			rgba(255,255,255,.2) 40%,
+			rgba(255,215,0,.4) 51%,
+			rgba(255,215,0,.4) 55%,
+			rgba(255,255,255,.2) 56%),
+		radial-gradient(
+			rgba(255,255,255,.2) 20%,
+			rgba(154,205,50,.4) 31%,
+			rgba(154,205,50,.4) 35%,
+			rgba(255,255,255,.2) 36%,
+			rgba(255,255,255,.2) 40%,
+			rgba(154,205,50,.4) 51%,
+			rgba(154,205,50,.4) 55%,
+			rgba(255,255,255,.2) 56%),
+		radial-gradient(
+			rgba(255,255,255,.2) 20%,
+			rgba(70,130,180,.4) 31%,
+			rgba(70,130,180,.4) 35%,
+			rgba(255,255,255,.2) 36%,
+			rgba(255,255,255,.2) 40%,
+			rgba(70,130,180,.4) 51%,
+			rgba(70,130,180,.4) 55%,
+			rgba(255,255,255,.2) 56%
+		), orangered;
+
+		background-size:
+			13em 13em,
+			11em 11em,
+			5em 5em,
+			11em 11em,
+			7em 7em,
+			5em 5em,
+			3em 3em,
+			1em 1em;
+		background-position:
+			50% 50%,
+			20% 20%,
+			30% 30%,
+			70% 70%;
+		background-blend-mode:
+			overlay,
+			normal,
+			hard-light,
+			overlay,
+			multiply,
+			soft-light;
+}
+
+.pattern-blend-12 {
+	background:
+		repeating-radial-gradient(
+			circle at 50% 25%,
+			limegreen,
+			limegreen .5em,
+			transparent 3em,
+			transparent 4em
+		),
+		repeating-radial-gradient(
+			circle at 25% 50%,
+			olivedrab,
+			olivedrab .5em,
+			transparent 2em,
+			transparent 4em
+		),
+		repeating-radial-gradient(
+			circle at 75% 50%,
+			green,
+			green .5em,
+			transparent 2em,
+			transparent 4em
+		), lightgreen;
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-13 {
+	background:
+		repeating-linear-gradient(
+			to top left,
+			transparent,
+			transparent 5em,
+			#96526B 5em,
+			#96526B 10em,
+			transparent 10em,
+			transparent 15em,
+			#F5CF66 15em,
+			#F5CF66 20em
+		),
+		repeating-linear-gradient(
+			to top right,
+			transparent,
+			transparent 5em,
+			#EBAD60 5em,
+			#EBAD60 10em,
+			transparent 10em,
+			transparent 15em,
+			#8BAB8D 15em,
+			#8BAB8D 20em
+		), wheat;
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-14 {
+	background:
+		repeating-radial-gradient(
+			circle,
+			transparent,
+			transparent 3em,
+			hotpink 1em,
+				transparent 6em,
+			tomato 6.5em
+		),
+		repeating-radial-gradient(
+			ellipse farthest-corner,
+			transparent 1em,
+			cornflowerblue 1em,
+			 	transparent 5em,
+			cornflowerblue 2em
+		),
+		repeating-radial-gradient(
+			circle,
+			transparent,
+			transparent 3em,
+			gold 1em,
+				transparent 2em,
+			gold 4em
+		),
+		repeating-radial-gradient(
+			circle,
+			transparent 3em,
+			gold 1em,
+				transparent 2em,
+			gold 4em
+		), white;
+
+	background-blend-mode: multiply;
+	background-size: 10em 10em;
+	background-position: 0 0, 5em 5em, 15em 50em;
+}
+
+.pattern-blend-15 {
+	background:
+		repeating-linear-gradient(
+			to top left,
+			beige 0,
+			beige 2em,
+			moccasin 2em,
+			moccasin 4em,
+			wheat 4em,
+			wheat 6em
+		),
+		repeating-linear-gradient(
+			to left,
+			white 0,
+			white 2em,
+			wheat 2em,
+			wheat 4em,
+			beige 4em,
+			beige 6em
+		), white;
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-16 {
+	background:
+		radial-gradient(
+				at bottom right,
+				dodgerblue 0,
+				dodgerblue 1em,
+				lightskyblue 1em,
+				lightskyblue 2em,
+				deepskyblue 2em,
+				deepskyblue 3em,
+				gainsboro 3em,
+				gainsboro 4em,
+				lightsteelblue 4em,
+				lightsteelblue 5em,
+				deepskyblue 5em,
+				deepskyblue 6em,
+				lightskyblue 6em,
+				lightskyblue 7em,
+				transparent 7em,
+				transparent 8em
+			),
+			radial-gradient(
+				at top left,
+				transparent 0,
+				transparent 1em,
+				lightskyblue 1em,
+				lightskyblue 2em,
+				deepskyblue 2em,
+				deepskyblue 3em,
+				lightsteelblue 3em,
+				lightsteelblue 4em,
+				gainsboro 4em,
+				gainsboro 5em,
+				deepskyblue 5em,
+				deepskyblue 6em,
+				skyblue 6em,
+				skyblue 7em,
+				dodgerblue 7em,
+				dodgerblue 8em,
+				transparent 8em,
+				transparent 20em
+			),
+			radial-gradient(
+				circle at center bottom,
+				coral, darkslateblue
+			);
+		
+		background-blend-mode: overlay;
+		background-size:
+			8em 8em, 8em 8em, cover;
+}
+
+.pattern-blend-17 {
+	background:
+		radial-gradient(
+			circle at left,
+			transparent,
+			#99eb47,
+			#99eb47 3.36927%,
+			transparent 3.36927%,
+			transparent 6.73854%,
+			#b3e87d 6.73854%,
+			#b3e87d 10.10782%,
+			transparent 10.10782%,
+			transparent 13.47709%,
+			#ccebad 13.47709%,
+			#ccebad 16.84636%,
+			transparent 16.84636%,
+			transparent 20.21563%,
+			#a6ed5e 20.21563%,
+			#a6ed5e 23.58491%,
+			transparent 23.58491%,
+			transparent 26.95418%,
+			#ccebad 26.95418%,
+			#ccebad 30.32345%,
+			transparent 30.32345%,
+			transparent 33.69272%,
+			#b3e87d 33.69272%,
+			#b3e87d 37.06199%,
+			transparent 37.06199%,
+			transparent 40.43127%,
+			#99eb47 40.43127%,
+			#99eb47 43.80054%,
+			transparent 43.80054%,
+			transparent 47.16981%
+		),
+		radial-gradient(
+			circle at right,
+			transparent,
+			#99eb47 0%,
+			#99eb47 3.36927%,
+			transparent 3.36927%,
+			transparent 6.73854%,
+			#b3e87d 6.73854%,
+			#b3e87d 10.10782%,
+			transparent 10.10782%,
+			transparent 13.47709%,
+			#ccebad 13.47709%,
+			#ccebad 16.84636%,
+			transparent 16.84636%,
+			transparent 20.21563%,
+			#a6ed5e 20.21563%,
+			#a6ed5e 23.58491%,
+			transparent 23.58491%,
+			transparent 26.95418%,
+			#ccebad 26.95418%,
+			#ccebad 30.32345%,
+			transparent 30.32345%,
+			transparent 33.69272%,
+			#b3e87d 33.69272%,
+			#b3e87d 37.06199%,
+			transparent 37.06199%,
+			transparent 40.43127%,
+			#99eb47 40.43127%,
+			#99eb47 43.80054%,
+			transparent 43.80054%,
+			transparent 47.16981%
+		),
+		radial-gradient(circle at left,
+			transparent,
+			#99eb47 0%,
+			#99eb47 3.36927%,
+			transparent 3.36927%,
+			transparent 6.73854%,
+			#b3e87d 6.73854%,
+			#b3e87d 10.10782%,
+			transparent 10.10782%,
+			transparent 13.47709%,
+			#ccebad 13.47709%,
+			#ccebad 16.84636%,
+			transparent 16.84636%,
+			transparent 20.21563%,
+			#a6ed5e 20.21563%,
+			#a6ed5e 23.58491%,
+			transparent 23.58491%,
+			transparent 26.95418%,
+			#ccebad 26.95418%,
+			#ccebad 30.32345%,
+			transparent 30.32345%,
+			transparent 33.69272%,
+			#b3e87d 33.69272%,
+			#b3e87d 37.06199%,
+			transparent 37.06199%,
+			transparent 40.43127%,
+			#99eb47 40.43127%,
+			#99eb47 43.80054%,
+			transparent 43.80054%,
+			transparent 47.16981%
+		),
+		radial-gradient(circle at right,
+			transparent,
+			#99eb47 0%,
+			#99eb47 3.36927%,
+			transparent 3.36927%,
+			transparent 6.73854%,
+			#b3e87d 6.73854%,
+			#b3e87d 10.10782%,
+			transparent 10.10782%,
+			transparent 13.47709%,
+			#ccebad 13.47709%,
+			#ccebad 16.84636%,
+			transparent 16.84636%,
+			transparent 20.21563%,
+			#a6ed5e 20.21563%,
+			#a6ed5e 23.58491%,
+			transparent 23.58491%,
+			transparent 26.95418%,
+			#ccebad 26.95418%,
+			#ccebad 30.32345%,
+			transparent 30.32345%,
+			transparent 33.69272%,
+			#b3e87d 33.69272%,
+			#b3e87d 37.06199%,
+			transparent 37.06199%,
+			transparent 40.43127%,
+			#99eb47 40.43127%,
+			#99eb47 43.80054%,
+			transparent 43.80054%,
+			transparent 47.16981%
+		), #99e052;
+
+	background-size: 4em 4em;
+	background-position:
+		0 0,
+		0 2em,
+		2em 0,
+		2em 2em;
+	background-blend-mode:
+		overlay,
+		overlay,
+		normal,
+		normal;
+
+
+}
+
+.pattern-blend-18 {
+	background:
+		repeating-linear-gradient(
+			#F3F5C4 0,
+			#F3F5C4 3em,
+			#F19181 3em,
+			#F19181 6em
+		),
+		repeating-linear-gradient(
+			90deg,
+			#F9CB8F 0,
+			#F9CB8F 3em,
+			#3CBAC8 3em,
+			#3CBAC8 6em
+		),
+		repeating-linear-gradient(
+			45deg,
+			transparent 0,
+			transparent 6em,
+			#F19181 12em
+		),
+		repeating-linear-gradient(
+			-45deg,
+			transparent 0,
+			transparent 6em,
+			#F19181 12em
+		);
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-19 {
+	background-image:
+		repeating-linear-gradient(
+			90deg,
+			firebrick,
+			firebrick 20px,
+			beige 0,
+			beige 25px,
+			forestgreen 0,
+			forestgreen 35px,
+			gold 0,
+			gold 40px,
+			crimson 0,
+			crimson 60px
+		),
+		repeating-linear-gradient(
+			firebrick,
+			firebrick 20px,
+			beige 0,
+			beige 25px,
+			forestgreen 0,
+			forestgreen 35px,
+			gold 0,
+			gold 40px,
+			crimson 0,
+			crimson 60px
+		);
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-20 {
+	background:
+		radial-gradient(
+			transparent 0,
+			transparent 20px,
+			#DC143C 0,
+			#DC143C 25px,
+			transparent 0,
+			transparent 100%
+		),
+		radial-gradient(
+			transparent 0,
+			transparent 20px,
+			#DC143C 0,
+			#DC143C 25px,
+			transparent 0,
+			transparent 100%
+		),
+		radial-gradient(
+			transparent 0,
+			transparent 20px,
+			#3CB371 0,
+			#3CB371 25px,
+			transparent 0,
+			transparent 100%
+		),
+		radial-gradient(
+			transparent 0,
+			transparent 20px,
+			#3CB371 0,
+			#3CB371 25px,
+			transparent 0,
+			transparent 100%
+		), linen;
+
+	background-blend-mode: multiply;
+	background-size: 80px 80px;
+	background-position:
+		40px 40px,
+		40px 0,
+		0 0,
+		0 40px;
+}
+
+.pattern-blend-21 {
+	background:
+		repeating-linear-gradient(
+			to top left,
+			wheat 0,
+			wheat 20px,
+			transparent 0,
+			transparent 40px,
+			#228B22 0,
+			#228B22 60px
+		),
+		repeating-linear-gradient(
+			to left,
+			crimson 0,
+			crimson 20px,
+			wheat 0,
+			wheat 40px,
+			#228B22 0,
+			#228B22 60px
+		), beige;
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-22 {
+	background:
+		repeating-linear-gradient(
+			45deg,
+			transparent,
+			transparent 1em,
+			moccasin 0,
+			moccasin 2em,
+			transparent 0,
+			transparent 3em,
+			powderblue 0,
+			powderblue 4em,
+			transparent 0,
+			transparent 5em,
+			lavender 0,
+			lavender 6em,
+			transparent 0,
+			transparent 7em,
+			beige 0,
+			beige 8em
+		),
+		repeating-linear-gradient(
+			-45deg,
+			transparent,
+			transparent 1em,
+			khaki 0,
+			khaki 2em,
+			transparent 0,
+			transparent 3em,
+			beige 0,
+			beige 4em,
+			transparent 0,
+			transparent 5em,
+			peachpuff 0,
+			peachpuff 6em
+		), whitesmoke;
+
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-23 {
+	background:
+		repeating-linear-gradient(
+			-45deg,
+			transparent,
+			transparent 25%,
+			tomato 0,
+			tomato 50%
+		),
+		repeating-linear-gradient(
+			45deg,
+			transparent,
+			transparent 25%,
+			dodgerblue 0,
+			dodgerblue 50%
+		), wheat;
+
+	background-size: 10em 10em;
+	background-blend-mode: multiply;
+}
+
+.pattern-blend-24 {
+	background:
+	linear-gradient(
+			limegreen,
+			transparent
+		),
+		linear-gradient(
+			90deg,
+			skyblue,
+			transparent
+		),
+		linear-gradient(
+			-90deg,
+			coral,
+			transparent
+		);
+		
+	background-blend-mode: screen;
+}
+
+
+/***************************/
+/* SECOND ROUND OF PATTERN */
+/***************************/
+
+.microbial-mat{
+	background:
+	radial-gradient(circle at 0% 50%, rgba(96,16,48,0) 9px, #613 10px, rgba(96,16,48,0) 11px)0 10px,
+	radial-gradient(at 100% 100%, rgba(96,16,48,0) 9px, #613 10px, rgba(96,16,48,0) 11px),
+	#8a3;
+	background-size:20px 20px
+}
+
+.stairs {
+	background:
+	linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
+	linear-gradient(63deg, transparent 74%, #999 78%),
+	linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
+	#444;
+	background-size:16px 48px
+}
+
+.arrows {
+	background:
+	linear-gradient(45deg, #92baac 45px, transparent 45px) 64px 64px,
+	linear-gradient(45deg, #92baac 45px, transparent 45px, transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+	linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px, #92baac 68px, #92baac 113px, transparent 113px, transparent 158px, #92baac 158px),
+	#e1ebbd;
+	background-size:128px 128px
+}
+
+.weave {
+	background:
+	linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+	linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px,
+	#708090;
+	background-size:64px 128px
+}
+
+.stephanie {
+	background:
+	radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+	radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+	radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+	radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+	radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+	radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+	radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+	radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+	linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+	linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+	background-color:#fff;
+	background-size: 100px 100px
+}
+
+.starry-night {
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient( rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size:550px 550px,350px 350px,250px 250px,150px 150px;
+	background-position:0 0,40px 60px,130px 270px,70px 100px
+}
+
+.rainbow-bokeh {
+	background-color:#840b2a;
+	background:
+	radial-gradient( rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
+	radial-gradient( rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
+	radial-gradient( rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
+	radial-gradient( rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
+	radial-gradient( rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
+	radial-gradient( rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
+	linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
+	background-size:470px 470px,970px 970px,410px 410px,610px 610px,530px 530px,730px 730px,100% 100%
+}
+
+.carbon { 
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color:#131313;
+	background-size:20px 20px
+}
+
+.carbon-fibre {
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient( rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient( rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px
+}
+
+.hearts {
+	background:
+	radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+	radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%),
+	radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+	radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%),
+	radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%),
+	radial-gradient(circle closest-side at 60% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+	radial-gradient(circle closest-side at 40% 43%, #b03 26%, rgba(187,0,51,0) 27%) 50px 50px,
+	radial-gradient(circle closest-side at 40% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+	radial-gradient(circle closest-side at 60% 22%, #d35 45%, rgba(221,51,85,0) 46%) 50px 50px,
+	radial-gradient(circle closest-side at 50% 35%, #d35 30%, rgba(221,51,85,0) 31%) 50px 50px;
+	background-color:#b03;
+	background-size:100px 100px
+}
+
+.argyle {
+	background-color:#6d695c;
+	background-image:
+	repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+	linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+	linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+	background-size:70px 120px
+}
+
+.steps {
+	background-color:#FF7D9D;
+	background-size:58px 58px;
+	background-position: 0px 2px, 4px 35px, 29px 31px, 33px 6px, 0px 36px, 4px 2px, 29px 6px, 33px 30px;
+	background-image:
+	linear-gradient(335deg, #C90032 23px, transparent 23px),
+	linear-gradient(155deg, #C90032 23px, transparent 23px),
+	linear-gradient(335deg, #C90032 23px, transparent 23px),
+	linear-gradient(155deg, #C90032 23px, transparent 23px),
+	linear-gradient(335deg, #C90032 10px, transparent 10px),
+	linear-gradient(155deg, #C90032 10px, transparent 10px),
+	linear-gradient(335deg, #C90032 10px, transparent 10px),
+	linear-gradient(155deg, #C90032 10px, transparent 10px)
+}
+
+.waves {
+	background:
+	radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+	radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+	background-color:slategray;
+	background-size:75px 100px
+}
+
+.cross {
+	background:
+	radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+	radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+	linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+	linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+	background-color:slategray;
+	background-size:100px 100px,100px 100px,50px 50px,50px 50px
+}
+
+.yin-yang {
+	background:
+	radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 50px 0,
+	radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 50px 0,
+	radial-gradient(circle at 50% 59%, #D2CAAB 3%, #364E27 4%, #364E27 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 0 50px,
+	radial-gradient(circle at 50% 41%, #364E27 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 0 50px,
+	radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%),
+	radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%),
+	radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%) 50px 50px,
+	radial-gradient(circle at 0% 50%, #364E27 16%, rgba(54,78,39,0) 17%) 50px 50px;
+	background-color:#63773F;
+	background-size:100px 100px
+}
+
+.stars {
+	background:
+	linear-gradient(324deg, #232927 4%, transparent 4%) -70px 43px,
+	linear-gradient(36deg, #232927 4%, transparent 4%) 30px 43px,
+	linear-gradient(72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+	linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+	linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+	linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+	linear-gradient(324deg, #232927 4%, transparent 4%) -20px 93px,
+	linear-gradient(36deg, #232927 4%, transparent 4%) 80px 93px,
+	linear-gradient(72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+	linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+	linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+	linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+	background-color:#232927;
+	background-size:100px 100px
+}
+
+.bricks {
+	background-color:silver;
+	background-image:
+	linear-gradient(335deg, #b00 23px, transparent 23px),
+	linear-gradient(155deg, #d00 23px, transparent 23px),
+	linear-gradient(335deg, #b00 23px, transparent 23px),
+	linear-gradient(155deg, #d00 23px, transparent 23px);
+	background-size:58px 58px;
+	background-position:0 2px,4px 35px,29px 31px,34px 6px
+}
+
+.seigaiha {
+	background-color:silver;
+	background-image:
+	radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50% 100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent),
+	radial-gradient(circle at 0 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+	background-size:100px 50px
+}
+
+.tartan {
+	background-color:hsl(2,57%,40%);
+	background-image:
+	repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+	repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+	repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px)
+}
+
+.madras {
+	background-color:hsl(34, 53%, 82%);
+	background-image:
+	repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+	hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+	hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+	hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+	hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+	hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px),
+	repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,
+	hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+	hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,
+	hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+	hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+	hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px)
+}
+
+.tablecloth { 
+	background-color:white;
+	background-image:
+	linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 50%),
+	linear-gradient( rgba(200,0,0,.5) 50%, transparent 50%);
+	background-size:50px 50px
+}
+
+.flare {
+	background-color:#000;
+	background-image:
+	radial-gradient(circle, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 28%, rgba(255,255,255,0) 40%),
+	radial-gradient(circle, rgba(255,255,255,.4) 0, rgba(255,255,255,0) 28%, rgba(255,255,255,0) 40%),
+	radial-gradient(circle, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 3.5%, rgba(255,255,255,0) 5%),
+	radial-gradient(circle, rgba(255,255,255,.4) 0%, rgba(255,255,255,0) 3.5%, rgba(255,255,255,0) 5%),
+	radial-gradient(circle, rgba(255,255,255,.95) 0%, rgba(255,255,255,.8) 4%, rgba(189,58,54,.21) 28%, rgba(189,58,54,0) 34%, rgba(189,58,54,.53) 36%, rgba(189,58,54,0) 38%, rgba(189,58,54,0) 40%),
+	radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,218,0,.10) 11.5%, rgba(0,218,0,.18) 27%, rgba(189,58,54,.25) 27%, rgba(189,58,54,.25) 28.5%, rgba(0, 218,0,0) 30%, rgba(0, 0,218,0) 41.5%, rgba(0,0,218,.25) 43%, rgba(0,218,0,.25) 44.5%, rgba(251,218,63,.18) 46%, rgba(189,58,54,.25) 47.5%, rgba(189,58,54,0) 50%),
+	radial-gradient(circle, rgba(0,0,218,.25) 0%, rgba(0,218,0,.1) 24%, rgba(0,218,0,0) 28%, rgba(0,0,0,.35) 28.4%, rgba(0,0,0,0) 36%, rgba(0,0,0,0) 40%),
+	radial-gradient(circle, rgba(189,58,54,.15) 0%, rgba(189,58,54,.15) 36%, rgba(189,58,54,0) 36.4%, rgba(0,0,0,0) 40%),
+	radial-gradient(circle, rgba(189,58,54,.25) 0%, rgba(189,58,54,.25) 10%, rgba(189,58,54,.1) 12%, rgba(189,58,54,.2) 36%, rgba(189,58,54,0) 36.4%, rgba(0,0,0,0) 40%);
+	background-size:200px 200px;
+	background-position:75px 75px,85px 85px,94px 95px,117px 137px,58px 60px,40px 40px,125px 150px,87px 197px,90px 100px
+}
+
+.pseudo-plaid {
+	background-color:#4C5F39;
+	background-image:
+	linear-gradient(-135deg, #293B16 0%, #293B16 20%, transparent 20%,transparent 48%, #76AA41 49%, #76AA41 51%, transparent 52%, transparent 80%, #293B16 80%, #293B16 100%),
+	linear-gradient(135deg, #293B16 0%, #293B16 20%, transparent 20%, transparent 48%, #76AA41 49%, #76AA41 51%, transparent 52%, transparent 80%, #293B16 80%, #293B16 100%);
+	background-size:25px 25px;
+	background-position:0 0,100px 0
+}
+
+.pop-stripes { 
+	background-color:#363;
+	background-image:
+	radial-gradient(circle, rgba(36,36,36,1)17%, rgba(36,36,36,0)17%, rgba(0,0,0,0)100%),
+	radial-gradient(circle, rgba(36,36,36,1)17%, rgba(36,36,36,0)17%, rgba(0,0,0,0)100%),
+	radial-gradient(circle, rgba(72,72,72,1)17%, rgba(72,72,72,0)17%, rgba(0,0,0,0)100%),
+	radial-gradient(circle, rgba(72,72,72,1)17%, rgba(72,72,72,0)17%, rgba(0,0,0,0)100%),
+	linear-gradient(90deg, rgba(36,36,36,1) 25%, rgba(36,36,36,0) 25%, rgba(255,255,255,0) 55%, rgba(202,202,202,1) 55%, rgba(202,202,202,1) 70%, rgba(255,255,255,0) 70%, rgba(255,255,255,0) 100%);
+	background-size:50px 14px,50px 14px,50px 14px,50px 14px,50px 50px;
+	background-position:6px 0,29px 7px,6px 1px,30px 8px,0 0
+}
+
+.blend {
+	background:
+	linear-gradient(45deg, rgba(255,255,255,0) 65%, skyblue 65%),
+	linear-gradient(-45deg, rgba(255,255,255,0) 65%, skyblue 65%),
+	linear-gradient(135deg, rgba(255,255,255,0) 65%, skyblue 65%),
+	linear-gradient(-135deg, rgba(255,255,255,0) 65%, skyblue 65%),
+	linear-gradient(45deg, skyblue, steelblue 25%, rgba(255,255,255,0) 25%),
+	linear-gradient(-45deg, skyblue, steelblue 25%, rgba(255,255,255,0) 25%),
+	linear-gradient(135deg, skyblue, steelblue 25%, rgba(255,255,255,0) 25%),
+	linear-gradient(-135deg, skyblue, steelblue 25%, rgba(255,255,255,0) 25%),
+	linear-gradient(45deg, rgba(255,255,255,0) 20%, skyblue 40%, steelblue 60%, rgba(255,255,255,0) 60%),
+	linear-gradient(-45deg, rgba(255,255,255,0) 20%, skyblue 40%, steelblue 60%, rgba(255,255,255,0) 60%);
+	background-size:3em 8em;
+	background-color:skyblue;
+	background-blend-mode:multiply
+}
+
+.background-blend {
+	background-image:
+	linear-gradient(60deg, white -5%, white 5%, lightblue 0%, lightblue 10%, skyblue 5%, skyblue 15%, steelblue 10%, steelblue 20%, #38678f 15%, #38678f 25%, red 20%, red 30%, #ff6666 25%, #ff6666 35%, orange 30%, orange 40%, gold 35%, gold 45%, #ffef99 40%, #ffef99 50%, white 45%, white 55%, lightblue 50%, lightblue 60%, skyblue 55%, skyblue 65%, steelblue 60%, steelblue 70%, #38678f 65%, #38678f 75%, red 70%, red 80%, #ff6666 75%, #ff6666 85%, orange 80%, orange 90%, gold 85%, gold 95%, #ffef99 90%, #ffef99 100%), linear-gradient(-60deg, white -5%, white 5%, lightblue 0%, lightblue 10%, skyblue 5%, skyblue 15%, steelblue 10%, steelblue 20%, #38678f 15%, #38678f 25%, red 20%, red 30%, #ff6666 25%, #ff6666 35%, orange 30%, orange 40%, gold 35%, gold 45%, #ffef99 40%, #ffef99 50%, white 45%, white 55%, lightblue 50%, lightblue 60%, skyblue 55%, skyblue 65%, steelblue 60%, steelblue 70%, #38678f 65%, #38678f 75%, red 70%, red 80%, #ff6666 75%, #ff6666 85%, orange 80%, orange 90%, gold 85%, gold 95%, #ffef99 90%, #ffef99 100%);
+	background-color:orangered;
+	background-size:6em 10.32em;
+	background-blend-mode:multiply,normal
+}
+
+.circles {
+	background:
+	repeating-radial-gradient(circle, transparent, transparent 3em, hotpink 1em, transparent 6em, tomato 6.5em), repeating-radial-gradient(ellipse farthest-corner, transparent 1em, cornflowerblue 1em, transparent 5em, cornflowerblue 2em), repeating-radial-gradient(circle, transparent, transparent 3em, gold 1em, transparent 2em, gold 4em), repeating-radial-gradient(circle, transparent 3em, gold 1em, transparent 2em, gold 4em), white;
+	background-blend-mode:multiply;
+	background-size:10em 10em;
+	background-position:0 0,5em 5em,15em 50em;
+}
+
+.wallpaper {
+	background:
+	repeating-radial-gradient(circle, white 5%,green 10%),
+	radial-gradient(circle,green 5%, green 15%)30px 30px;
+	background-size:60px 60px
+}
+
+.russian {
+	background:
+	linear-gradient(-45deg, rgba(0,0,0,0) 50%, rgba(0,0,0,.0470588) 50%),
+	linear-gradient(45deg, rgba(0,0,0,0) 50%, rgba(255,255,255,.2) 50%),
+	linear-gradient(315deg, #f00 0,#f00 25%, rgba(0,0,0,0)25%),
+	linear-gradient(225deg, #f00 0,#f00 25%, rgba(0,0,0,0)25%),
+	linear-gradient(135deg, #f00 0,#f00 25%, rgba(0,0,0,0)25%),
+	linear-gradient(45deg, #f00 0,#f00 25%, rgba(0,0,0,0) 25%),
+	#f00;
+	background-position:auto auto,auto auto,-50px 0,-50px 0,auto auto,auto auto;
+	background-size:50px 50px,50px 50px,100px 100px,100px 100px,100px 100px,100px 100px
+}
+
+.blend-mode {
+	background-image:
+	radial-gradient(circle 2px at center center,#003366 90%,transparent),
+	radial-gradient(circle 2px at center center,#003366 90%,transparent),
+	radial-gradient(circle 2px at center center,#006633 90%,transparent),
+	radial-gradient(circle 2px at center center,#006633 90%,transparent),
+	radial-gradient(circle 2px at center center,#003366 90%,transparent),
+	radial-gradient(circle 2px at center center,#003366 90%,transparent),
+	radial-gradient(circle 2px at center center, #003333 90%,transparent),
+	radial-gradient(circle 2px at center center,#003333 90%,transparent),
+	radial-gradient(circle 2px at center center, #006666 90%,transparent),
+	radial-gradient(circle 2px at center center,#006666 90%,transparent),
+	repeating-linear-gradient(0deg, transparent 0, transparent .44em,#003399 .45em,#003399 .55em,transparent .56em,transparent 1em),
+	repeating-linear-gradient(90deg, transparent 0,transparent .44em,#003399 .45em,#003399 .55em,transparent .56em,transparent 1em);
+	background-size:6px 6px,6px 6px,12px 12px,12px 12px,24px 24px,24px 24px,8px 8px,8px 8px,16px 16px,16px 16px,auto,auto;
+	background-position:0 0,3px 3px,0 0,6px 6px,0 0,12px 12px,0 0,4px 4px,0 0,8px 8px,0 0,0 0;
+	background-color:black;
+	background-blend-mode:screen
+}
+
+.circles2 {
+	background-image:
+	radial-gradient(circle at 50% 50%, yellow 25%, orange 40%, orange 65%, black 75%, black 77%, red 84%, transparent);
+	background-size:50px 50px
+}
+
+.twist {
+	background-image:
+	linear-gradient(45deg, #000 0, #555 0, #555 25px, transparent 25px),
+	linear-gradient(315deg, #000 0, #555 0, #555 25px, transparent 25px),
+	linear-gradient(135deg, #000 0, #555 0, #555 25px, transparent 25px),
+	linear-gradient(225deg, #000 0, #555 0, #555 25px, transparent 25px),
+	linear-gradient(45deg, #000 25px, #555 25px, transparent 25px),
+	linear-gradient(225deg, #000 25px, #555 25px, transparent 25px);
+	background-position:70px -45px,-45px -80px,35px 70px,-80px 35px,35px -45px,-45px 35px;
+	background-size:115px 115px;
+	background-color:#eee
+}
+
+.tile {
+	background-image:
+	repeating-linear-gradient( 45deg,#2c1f47 0,#2c1f47 5px,transparent 5px,transparent 95px,#2c1f47 95px,#2c1f47 100px),
+	repeating-linear-gradient( -45deg,#2c1f47 0,#2c1f47 5px,transparent 5px,transparent 95px,#2c1f47 95px,#2c1f47 100px),
+	repeating-linear-gradient( 45deg,black 0,black 5px,transparent 8px,transparent 100px),
+	repeating-linear-gradient( -45deg,black 0,black 5px,transparent 8px,transparent 100px),
+	repeating-linear-gradient( 45deg,transparent 0,transparent 92px,#8b70c2 95px,#8b70c2 100px),
+	repeating-linear-gradient( -45deg,transparent 0,transparent 92px,#8b70c2 95px,#8b70c2 100px);
+	background-color:#639;
+	background-size:242px 184px
+}
+
+.css {
+	background-image:
+	linear-gradient(25deg,transparent 65%,#1474b8, transparent 70%), linear-gradient(-25deg, transparent 65%, #1474b8, transparent 70%), linear-gradient(-25deg, transparent 30%, #1474b8, transparent 35%), linear-gradient(25deg, transparent 30%, #1474b8, transparent 35%), linear-gradient(65deg, transparent 65%, #1474b8, transparent 70%), linear-gradient(-65deg, transparent 65%, #1474b8, transparent 70%), linear-gradient(-65deg, transparent 30%, #1474b8, transparent 35%), linear-gradient(65deg, transparent 30%, #1474b8, transparent 35%);
+	background-color:#222;
+	background-size: 5em 2em, 5em 2em, 5em 2em, 5em 2em, 2em 5em, 2em 5em, 2em 5em, 2em 5em
+}
+
+.shirt {
+	background-image:
+	repeating-linear-gradient(45deg, rgba(0,0,0,0.2) 2px, transparent 2.5px),
+	repeating-linear-gradient(-45deg, rgba(0,0,0,0.2) 2px, transparent 2.5px),
+	linear-gradient(to bottom, rgba(255,255,255,0.5) 1px, transparent 0),
+	linear-gradient(to bottom, rgba(255,255,255,0.5) 1px, transparent 0),
+	linear-gradient(to right, rgba(255,255,255,0.5) 1px, transparent 0),
+	linear-gradient(to right, rgba(255,255,255,0.5) 1px, transparent 0),
+	linear-gradient(to right, #1c4489 40px, transparent 0),
+	linear-gradient(to right, rgba(255,255,255,0.5) 2px, transparent 0);
+	background-size:auto, auto,50px 50px, 50px 50px, 50px 50px, 50px 50px, 80px 80px, 50px 50px;
+	background-position:0 0,0 0,0 0,0 10px,0 0,10px 0,0 10px,5px 0;
+	background-color:#2A56A6
+}
+
+.arabic {
+	background:
+	linear-gradient(45deg, transparent 0%, transparent 24.186%, #FFEA53 24.186%, #FFEA53 25.601%, transparent 25.60%, transparent 74.398%, #FFEA53 74.398%, #FFEA53 75.813%, transparent 75.813%, transparent 100%), 
+	linear-gradient(-45deg, transparent 0%, transparent 24.186%, #FFEA53 24.186%, #FFEA53 25.601%, transparent 25.601%, transparent 74.398%, #FFEA53 74.398%, #FFEA53 75.813%, transparent 75.813%, transparent 100%), 
+	linear-gradient(45deg, #8F225C 0%, #8F225C 12.446%, #FFEA53 12.446%, #FFEA53 13.861%, transparent 13.861%, transparent 86.138%, #FFEA53 86.138%, #FFEA53 87.553%, #8F225C 87.553%, #8F225C 100%), 
+	linear-gradient(-45deg, #8F225C 0%, #8F225C 12.446%, #FFEA53 12.446%, #FFEA53 13.861%, transparent 13.861%, transparent 86.138%, #FFEA53 86.138%, #FFEA53 87.553%, #8F225C 87.553%, #8F225C 100%), 
+	linear-gradient(to right, #FFEA53 0%, #FFEA53 1%, transparent 1%, transparent 99%, #FFEA53 99%, #FFEA53 100%), 
+	linear-gradient(to bottom, #FFEA53 0%, #FFEA53 1%, transparent 1%, transparent 99%, #FFEA53 99%, #FFEA53 100%), 
+	linear-gradient(to right, #8F225C 0%, #8F225C 12.4%, transparent 12.4%, transparent 14.4%, transparent 87.6%, #8F225C 87.6%, #8F225C 100%), 
+	linear-gradient(to bottom, #8F225C 0%, #8F225C 12.4%, transparent 12.4%, transparent 14.4%, transparent 87.6%, #8F225C 87.6%, #8F225C 100%), 
+	linear-gradient(to right, transparent 0%, transparent 12.4%, #FFEA53 12.4%, #FFEA53 14.4%, transparent 14.4%, transparent 85.6%, #FFEA53 85.6%, #FFEA53 87.6%, transparent 87.6%, transparent 100%), 
+	linear-gradient(to bottom, transparent 0%, transparent 12.4%, #FFEA53 12.4%, #FFEA53 14.4%, transparent 14.4%, transparent 85.6%, #FFEA53 85.6%, #FFEA53 87.6%, transparent 87.6%, transparent 100%), 
+	#8F225C;
+	background-size:80px 80px
+}
+
+
+
+
+
+
+
+
+
+

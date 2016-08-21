@@ -1,0 +1,63 @@
+.Layer {
+  position: absolute;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+}
+
+.Layer.--header {
+  position: absolute;
+  @include display(flex);
+  @include align-items(center);
+  @include justify-content(center);
+  pointer-events: none;
+  font-size: 5em;
+  z-index: 50;
+}
+
+.Phrase {
+  position: relative;
+  display: inline-block;
+  font-weight: 700;
+  z-index: 20;
+}
+
+.Phrase-before, .Phrase-after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Phrase.--block {
+  display: block;
+}
+
+.Word {
+  display: inline-block;
+  padding: 5px;
+}
+
+.Word.--block {
+  display: block;
+}
+
+.Letter {
+  display: inline-block;
+  padding: 2px;
+}
+
+.Letter.--block {
+  display: block;
+}
+
+.Background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
